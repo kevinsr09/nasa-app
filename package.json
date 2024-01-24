@@ -7,9 +7,11 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test:eslint": "eslint --fix .",
-    "test:tsc": "tsc",
-    "prepare": "husky install"
+    "eslint": "eslint --fix .",
+    "tsc": "tsc",
+    "prepare": "husky install",
+    "test": "vitest",
+    "test:dev": "vitest run"
   },
   "dependencies": {
     "eslint": "^8.56.0",
@@ -25,7 +27,8 @@
     "@types/react": "~18.2.45",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.3",
+    "vitest": "1.2.1"
   },
   "private": true
 }
