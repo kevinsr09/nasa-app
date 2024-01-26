@@ -4,7 +4,10 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@/components/*": ["src/ui/components/*"],
+      "@/ui/*": ["src/ui/*"],
+      "@/assets/*": ["assets/*"]
     }
   }
 }
